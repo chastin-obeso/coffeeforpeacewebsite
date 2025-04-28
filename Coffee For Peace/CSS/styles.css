@@ -1,91 +1,7 @@
-@media screen and (max-width: 1023px) {
-    #logo{
-        max-width: 50vw;
-    }
-    #menubtn{
-        max-width: 8vw;
-    }
-    .navbar{
-        display: flex;
-        justify-content:space-between;
-    }
-    .sidenav{
-        display: none;
-        z-index: 0;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: row;
-        position: fixed;
-    }
-    #sidenavbg{
-        z-index: 1;
-        width: 100vw;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    .navbarlinks-desktop{
-        display: none;
-    }
-    #navbarlinks-mobile{
-        overflow-x: hidden;
-        position: fixed;
-        transition: 0.5s;
-        row-gap: 30px;
-        padding-top: 50px;
-        right: 0;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: 100vh;
-        width: 0vw;
-        float: right;
-    }
-
-    .navbarlinks-mobile a, .navbarlinks-mobile hr {   
-        width: 50vw;        
-        flex-shrink: 0;           
-        overflow: hidden;         
-      }
-
-    #navbarlinks-mobile hr{
-        width: 40vw;
-        font-weight: 500;
-    }
-    a{
-        font-size: 20px;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-    a{
-        font-size: 20px;
-    }
-    #menubtn{
-        display: none;
-    }
-    .navbar{
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-between;
-    }
-    .navbarlinks-desktop{
-        display: flex;
-        flex-direction:row;
-        text-align: center;
-        gap: 25px;
-        
-    }
-    .navbarlinks-mobile{
-        display: none;
-    }
-}
-
 body{
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 .navbar a, .navbarlinks-mobile a{
     color: #ffffff;
@@ -94,9 +10,30 @@ body{
 .navbar, .navbarlinks-mobile{
     background-color: #670f12;
 }
+
 a, h1, h2, h3, h4, p{
+    margin: 0;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
     font-style: normal;
+    color: #670f12;
+}
+a{
+    font-size: 20px;
+    font-weight: 300;
+}
+h1{
+    font-size: calc(14px + 5vw);
+    font-weight: 700;
+}
+h2{
+    font-size: calc(14px + 3vw);
+    font-weight: 400;
+}
+p{
+    font-size: calc(14px + 1vw);
+    font-weight: 400;
+}
+#img1{
+    width: 100%;
 }
