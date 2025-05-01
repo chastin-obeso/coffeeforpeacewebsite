@@ -7,13 +7,17 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content:space-between;
+        padding: 2px 90px;
+        box-sizing: border-box;
+
     }
     .navbarlinks-desktop{
+        flex: 1;
         display: flex;
         flex-direction:row;
         text-align: center;
-        gap: 25px;  
+        justify-content: flex-end;
+        gap: 25px;
     }
 
     /* hover animation for header */
@@ -24,8 +28,8 @@
     .navbarlinks-desktop a{
         transition: 0.5s;
     }
-    /******************************/
-    
+    /*                            */
+
     .navbarlinks-mobile{
         display: none;
     }
@@ -64,6 +68,15 @@
         display: flex;
         align-items: center;
     }
+    /*  */
+    .product-catalog-row{
+        display: flex;
+        padding: 3vw;
+    }
+    .coffee-img{
+        width: 15vw;
+    }
+    /*  */
     #footerlogo{
         height: 3vw;
         padding-right: 5vw;
@@ -72,11 +85,17 @@
         height: 3vw;
         padding-left: 5vw;
     }
-    #fb, #ig{
+    #fb{
         width: 3vw;
         height: 3vw;
         padding-left: 1vw;
     }
+    #ig{
+        width: 3vw;
+        height: 3vw;
+        padding-left: 1vw;
+    }
+
     #img2{
         width: 35vw;
     }
