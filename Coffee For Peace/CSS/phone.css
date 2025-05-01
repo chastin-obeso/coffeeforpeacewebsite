@@ -6,10 +6,10 @@
         max-width: 8vw;
         padding-right: 5vw;
     }
-    .navbar{
+    #navbar{
         display: flex;
         justify-content:space-between;
-        padding-top: 1vw;
+        padding: 2px 0px;
     }
     .sidenav{
         display: none;
@@ -85,6 +85,53 @@
     .footer-left p {
         display: none;
     }
+    /*  */
+    .products-left a, .products-left h3, .products-left h4{
+        display: none;
+    }
+    .product-catalog-entry{
+        align-items: end;
+        display: flex;
+        padding: 5vw;
+        gap: 5vw;
+    }
+    
+    .products-right hr{
+        width: 90vw;
+    }
+    
+    .coffee-img{
+        width: 50vw;
+    }
+    .products-right h1{
+        text-align: center;
+    }
+    .product-catalog-entry h3{
+        padding-bottom: 2.5vw;
+        font-size: calc(14px + 3vw);
+        font-weight: 400;
+    }
+
+    .product-catalog-entry h4{
+        padding-bottom: 2.5vw;
+        font-size: calc(14px + 1vw);
+        font-weight: 400;
+    }
+    .product-catalog-entry h5{
+        font-size: calc(10px + 0.5vw);
+        font-weight: 400;
+    }
+    .price{
+        width: 30vw;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     #footerlogo{
         width: 50vw;
         padding-right: 5vw;
@@ -92,17 +139,20 @@
     #oldlogo{
         display: none;
     }
-    #fb, #ig{
+    #fb{
         width: 10vw;
         height: 10vw;
         padding-left: 1vw;
+        src: "/Img/facebook.png";
+    }
+    #ig{
+        width: 10vw;
+        height: 10vw;
+        padding-left: 1vw;
+        src: "/Img/instagram.png"
     }
     #img2{
         padding-top: 50px;
-        width: 50vw;
-    }
-    .footer-left p {
-    color:#ffffff;
-    padding-left: 1vw;
-}
+        width: 100vw;
+    }    
 }
