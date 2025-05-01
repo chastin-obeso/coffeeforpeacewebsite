@@ -13,9 +13,19 @@
         display: flex;
         flex-direction:row;
         text-align: center;
-        gap: 25px;
-        
+        gap: 25px;  
     }
+
+    /* hover animation for header */
+    .navbarlinks-desktop a:hover{
+        font-size: 24px;
+        transition: 0.5s;
+    }
+    .navbarlinks-desktop a{
+        transition: 0.5s;
+    }
+    /******************************/
+    
     .navbarlinks-mobile{
         display: none;
     }
