@@ -11,6 +11,8 @@ function closeNav() {
     document.getElementById("navbarlinks-mobile").style.width = "0vw";
   }
 
+
+/**************** hover animation for footer *******************/
 const desktop = window.matchMedia("(min-width: 1025px)");
 const image = document.getElementById('fb');
   image.addEventListener('mouseover', function() {
@@ -37,3 +39,4 @@ const image2 = document.getElementById('ig');
       image2.src = '/Img/instagram.png'; 
     }
   });
+/***************************************************************/
